@@ -6,51 +6,13 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
-    <!--<TextView-->
-    <!--android:id="@+id/greetFriend"-->
-    <!--android:layout_width="wrap_content"-->
-    <!--android:layout_height="wrap_content"-->
-    <!--android:layout_centerHorizontal="true"-->
-    <!--android:layout_marginTop="43dp"-->
-    <!--android:text="Welcome to GreetFriend App!"/>-->
-
-    <!--<Button-->
-    <!--android:id="@+id/btnClick"-->
-    <!--android:layout_width="wrap_content"-->
-    <!--android:layout_height="wrap_content"-->
-    <!--android:layout_alignParentTop="true"-->
-    <!--android:layout_centerHorizontal="true"-->
-    <!--android:layout_marginTop="163dp"-->
-    <!--android:text="Click me!" />-->
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"></android.support.v7.widget.Toolbar>
 
     <ListView
-        android:id="@+id/listViewMsg"
+        android:id="@+id/listFriend"
         android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1" />
-
-    <LinearLayout
-        android:id="@+id/layoutAction"
-        android:layout_width="match_parent"
-        android:layout_height="100dp"
-        android:background="#eee"
-        android:gravity="center_vertical|center_horizontal"
-        android:orientation="horizontal">
-
-        <EditText
-            android:id="@+id/msgEditText"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:ems="10"
-            android:hint="enter message"
-            android:inputType="textPersonName" />
-
-        <Button
-            android:id="@+id/btnSend"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="abc" />
-    </LinearLayout>
+        android:layout_height="wrap_content"></ListView>
 </LinearLayout>

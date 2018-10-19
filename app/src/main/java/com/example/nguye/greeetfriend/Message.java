@@ -38,7 +38,7 @@ public class Message {
     }
 
     public String getTime(){
-        SimpleDateFormat sdf = new SimpleDateFormat("h:mm a*");
+        SimpleDateFormat sdf = new SimpleDateFormat("h:mm a");
         return sdf.format(date);
     }
 

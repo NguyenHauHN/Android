@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">GreeetFriend</string>
+    <string name="app_name">Game Android Guy</string>
     <string-array name="list_friend">
         <item>Friend 1</item>
         <item>Friend 2</item>
